@@ -1,2 +1,2 @@
-FROM calico/cni:v3.8.2
+FROM calico/cni:v3.11.2
 MAINTAINER xff
