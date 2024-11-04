@@ -1,2 +1,2 @@
-FROM seataio/seata-server:2.2.0
+FROM docker.io/seataio/seata-server:latest
 MAINTAINER xff
