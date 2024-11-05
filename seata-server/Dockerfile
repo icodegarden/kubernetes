@@ -5,8 +5,8 @@ RUN wget https://gitee.com/icodegarden/resources/blob/master/download/mysql-conn
 #jdbc默认不存在需要创建
 #RUN mkdir -p /seata-server/lib/jdbc
 
-RUN mv mysql-connector-j-8.0.33.jar /seata-server/lib
+RUN mv mysql-connector-j-8.0.33.jar /seata-server/libs
 
-RUN ls /seata-server/lib 
+RUN ls /seata-server/libs
 
 MAINTAINER xff
