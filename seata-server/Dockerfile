@@ -8,9 +8,9 @@ RUN mkdir -p /seata-server/lib/jdbc
 RUN mv mysql-connector-j-8.0.33.jar /seata-server/lib/jdbc
 
 RUN echo '-----1'
-RUN ls /seata-server/lib |grep 'mysql'
+RUN ls /seata-server/lib 
 
 RUN echo '-----2'
-RUN ls /seata-server/lib/jdbc |grep 'mysql'
+RUN ls /seata-server/lib/jdbc 
 
 MAINTAINER xff
