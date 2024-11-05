@@ -5,6 +5,6 @@ RUN wget https://gitee.com/icodegarden/resources/blob/master/download/mysql-conn
 
 RUN mv mysql-connector-java-5.1.42.jar /seata-server/libs
 #RUN mv mysql-connector-java-5.1.42.jar /seata-server/libs/jdbc
-RUN mv mysql-connector-java-8.0.27.jar /seata-server/libs
+#RUN mv mysql-connector-java-8.0.27.jar /seata-server/libs
 
 MAINTAINER xff
